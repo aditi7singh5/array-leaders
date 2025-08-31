@@ -20,12 +20,12 @@ class Solution {
         Solution sol = new Solution();
         
         int[] res1 = sol.lcmAndGcd(5, 10);
-        System.out.println("[" + res1[0] + ", " + res1[1] + "]"); // [10, 5]
+        System.out.println("[" + res1[0] + ", " + res1[1] + "]");
 
         int[] res2 = sol.lcmAndGcd(14, 8);
-        System.out.println("[" + res2[0] + ", " + res2[1] + "]"); // [56, 2]
+        System.out.println("[" + res2[0] + ", " + res2[1] + "]"); 
 
         int[] res3 = sol.lcmAndGcd(1, 1);
-        System.out.println("[" + res3[0] + ", " + res3[1] + "]"); // [1, 1]
+        System.out.println("[" + res3[0] + ", " + res3[1] + "]");
     }
 }
