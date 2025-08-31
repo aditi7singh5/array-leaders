@@ -2,7 +2,7 @@ class Solution {
    
     public int[] lcmAndGcd(int a, int b) {
         int gcd = findGCD(a, b);
-        int lcm = (a * b) / gcd; // formula: lcm * gcd = a * b
+        int lcm = (a * b) / gcd;
         return new int[]{lcm, gcd};
     }
 
